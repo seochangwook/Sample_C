@@ -5,4 +5,4 @@ main: main.cpp cal.o
 cal.o: cal.cpp
 	$(CC) -c cal.cpp
 clean: 
-	rm -rf test cal.o
+	rm -rf main cal.o
